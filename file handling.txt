@@ -1,0 +1,34 @@
+void cricket:: eleven(void)
+{ 
+ofstream fout;
+fout.open("india.txt");
+
+fout<<"     Shikhar Dhawan\n";
+fout<<"     Murli Vijay\n";
+fout<<"     Virat Kohli   (VC) \n";
+fout<<"     Ajinkya Rahane\n";
+fout<<"     Suresh Raina\n";
+fout<<"     Mahendra Singh Dhoni (C) (WK)\n";
+fout<<"     Ravindra Jadeja\n";
+fout<<"     Umesh Yadav\n";
+fout<<"     Ravi Chandran Ashwin\n";
+fout<<"     Amit Mishra\n";
+fout<<"     Ishant Sharma\n";
+
+fout.close();
+
+int N=50;
+char line[N];
+ifstream fin;
+fin.open("india.txt");
+ 
+
+while(fin)
+{     fin.getline(line,N);
+       cout <<line;
+}
+fin.close
+
+
+}
+
